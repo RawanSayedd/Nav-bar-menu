@@ -107,6 +107,9 @@
 }
 /* media queries */
 @media (max-width: 886px) {
+  body .disabledScroll {
+    overflow: hidden;
+  }
   .icon {
     display: block;
   }
